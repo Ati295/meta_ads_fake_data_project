@@ -32,7 +32,7 @@ for camp in CAMPAIGNS:
             "campaign_id": camp["id"],
             "campaign_name": camp["name"],
             "name": f"AdSet_{adset_id}_IN_Audience_{j}",
-            "daily_budget": random.choice(),
+            "daily_budget": random.choice([2500, 5000, 8000, 12000, 20000]),
         })
 
 # 3. Generate 2,000 Ads (20 Ads per Ad Set)
